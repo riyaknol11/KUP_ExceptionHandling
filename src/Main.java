@@ -53,9 +53,9 @@ public class Main{
 
         try {
             // Parsing the input of user
-            System.out.println("Enter the first number : ");
+            System.out.println("Enter the first number :");
             number1  = Integer.parseInt(input.next());
-            System.out.println("Enter the second number : ");
+            System.out.println("Enter the second number :");
             number2  = Integer.parseInt(input.next());
             System.out.println("Sum of the numbers is : " + calculator.add(number1, number2));
             System.out.println("difference of the numbers is : " + calculator.difference(number1,number2));
